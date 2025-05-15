@@ -242,30 +242,17 @@ custom_css:
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:
-  enable: false
+  enable: true
 
   # 遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
   # Follow the "Do Not Track" setting of the visitor's browser
   # See: https://www.w3.org/TR/tracking-dnt/
   follow_dnt: true
 
-  # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
-  # Baidu analytics, get the string behind `hm.js?`
-  # See: https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376
-  baidu:
-
-  # Google Analytics 4 的媒体资源 ID
   # Google Analytics 4 MEASUREMENT_ID
   # See: https://support.google.com/analytics/answer/9744165#zippy=%2Cin-this-article
   google:
-    measurement_id:
-
-  # 腾讯统计的 H5 App ID，开启高级功能才有cid
-  # Tencent analytics, set APP ID
-  # See: https://mta.qq.com/h5/manage/ctr_app_manage
-  tencent:
-    sid:
-    cid:
+    measurement_id: G-G1Y0FQV17P
 
   # LeanCloud 计数统计，可用于 PV UV 展示，如果 `web_analytics: enable` 没有开启，PV UV 展示只会查询不会增加
   # LeanCloud count statistics, which can be used for PV UV display. If `web_analytics: enable` is false, PV UV display will only query and not increase
